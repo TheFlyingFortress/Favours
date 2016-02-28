@@ -18,16 +18,16 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         final Button button = (Button) findViewById(R.id.button);
+        
+        button.setText("Create Request");
 
         button.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
 
-            	/*
-                Intent myIntent = new Intent(MainActivity.this, Request.class);
+                Intent myIntent = new Intent(MainActivity.this, RequestActivity.class);
 
                 MainActivity.this.startActivity(myIntent);
-                */
             }
         });
     }
