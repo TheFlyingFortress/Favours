@@ -9,13 +9,22 @@
     tools:context="com.theflyingfortress.favours.MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/newFavour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="buttonClickFunction"/>
+        android:onClick="buttonClickFunction" />
+
+    <Button
+        android:id="@+id/listFavours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newFavour"
+        android:layout_marginTop="36dp"
+        android:layout_toRightOf="@+id/textView1" />
 
 </RelativeLayout>

@@ -16,17 +16,27 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-
-        final Button button = (Button) findViewById(R.id.button);
         
-        button.setText("Create Request");
-
-        button.setOnClickListener(new View.OnClickListener() {
-
+        /*
+         * create a new favour
+         */
+        final Button newFavour = (Button) findViewById(R.id.newFavour);
+        newFavour.setText("Create Request");
+        newFavour.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
                 Intent myIntent = new Intent(MainActivity.this, RequestActivity.class);
-
+                MainActivity.this.startActivity(myIntent);
+            }
+        });
+        
+        /*
+         * list all available favours
+         */
+        final Button listFavours = (Button) findViewById(R.id.listFavours);
+        listFavours.setText("List Requests");
+        listFavours.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(MainActivity.this, ListActivity.class);
                 MainActivity.this.startActivity(myIntent);
             }
         });

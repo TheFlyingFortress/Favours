@@ -12,6 +12,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TimePicker;
 
+/**
+ * Create a new request and save to JSON string
+ */
 public class RequestActivity extends Activity {
 	
 	int userID = 0;
