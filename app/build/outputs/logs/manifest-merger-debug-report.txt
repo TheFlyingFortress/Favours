@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml
@@ -52,7 +52,7 @@ MERGED from [com.android.support:support-v4:23.2.0] C:\Users\PJWS-Laptop\Documen
 		INJECTED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:13:5-28:19
+ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:13:5-37:19
 MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.2.0] C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
@@ -81,9 +81,9 @@ MERGED from [com.android.support:support-v4:23.2.0] C:\Users\PJWS-Laptop\Documen
 	android:theme
 		ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:17:9-40
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:18:9-107
+ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:18:9-100
 	android:value
-		ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:18:66-105
+		ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:18:66-98
 	android:name
 		ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:18:20-65
 activity#com.theflyingfortress.favours.MainActivity
@@ -102,3 +102,15 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
 		ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.theflyingfortress.favours.RequestActivity
+ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:29:9-31:48
+	android:label
+		ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:30:13-44
+activity#com.theflyingfortress.favours.ListActivity
+ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:33:9-35:48
+	android:label
+		ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\src\main\AndroidManifest.xml:34:13-41

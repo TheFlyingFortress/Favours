@@ -8,12 +8,12 @@
         "source": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
         "source": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.0.0\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.0.0\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
-        "merged": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
         "merged": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "C:\\Users\\PJWS-Laptop\\Documents\\GitHub\\Favours\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
