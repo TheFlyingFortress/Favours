@@ -1,25 +1,35 @@
-apply plugin: 'com.android.application'
-
-android {
-    compileSdkVersion 19
-    buildToolsVersion "19.0.0"
-
-    defaultConfig {
-        minSdkVersion 8
-        targetSdkVersion 19
-        versionCode 1
-        versionName "1.0"
+buildscript {
+    repositories {
+        mavenCentral()
     }
-    buildTypes {
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.4.2'
+        compile 'com.facebook.android:facebook-android-sdk:[4,5)'
     }
 }
 
+apply plugin: 'android-library'
+
 dependencies {
-    compile project(":lib")
-    compile 'com.android.support:appcompat-v7:19.0.1'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:13.0.0'
+}
+
+android {
+    buildToolsVersion "17.0" //Need to confirm and may need change
+    compileSdkVersion 17
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+
+        instrumentTest.setRoot('tests')
+    }
 }

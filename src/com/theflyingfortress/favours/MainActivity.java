@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import com.facebook.FacebookSdk;
 
 public class MainActivity extends Activity {
 
@@ -49,5 +50,19 @@ public class MainActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+		// Logs 'install' and 'app activate' App Events.
+		AppEventsLogger.activateApp(this);
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+		// Logs 'app deactivate' App Event.
+		AppEventsLogger.deactivateApp(this);
 	}
 }
