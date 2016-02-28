@@ -8,21 +8,16 @@ app.get('/', function(req, res){
 });
 
 io.on('connection', function (socket) {
-  socket.emit('post job', "got the req");
-  socket.on('what to do', function (data) {
+  socket.emit('post favour', "got the req");
+  socket.on('favour', function (data) {
     console.log(data);
-  });
-  socket.on('from where', function (data) {
-    console.log(data);
-  });
-  socket.on('starting', function (data) {
-    console.log(data);
-  });
-  socket.on('ending', function (data) {
-    console.log(data);
-  });
-  socket.on('meeting', function (data) {
-    console.log(data);
+    var obj = JSON.parse(data);
+    console.log(obj.uid);
+    console.log(obj.favour);
+    console.log(obj.fromWhere);
+    console.log(obj.starting);
+    console.log(obj.ending);
+    console.log(obj.meeting);
   });
 });
 

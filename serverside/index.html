@@ -1,16 +1,15 @@
 <script src="/socket.io/socket.io.js"></script>
 <script>
   var socket = io.connect('http://localhost:3000/');
-  socket.on('post job', function (data) {
+  socket.on('post favour', function (data) {
     console.log(data);
     if (data === "got the req") {
-      socket.emit('what to do', "get coffee");
-      socket.emit('from where', "starbucks");
-      socket.emit('starting', "13:30");
-      socket.emit('ending', "14:30");
-      socket.emit('meeting', "ICICS");
+      var favour = '{ "uid": "123" , "favour": "get coffee" , "fromWhere": "starbucks" , "starting": "13:30" , "ending": "14:30" , "meeting": "ICICS" }';
+      socket.emit('favour', favour);
     }
     else
       console.log("post error");
   });
 </script>
+
+
