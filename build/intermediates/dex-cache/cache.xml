@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.0_ec730ea10e0cab7b9c8cd2043a9cd3da6f1aa749\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\PJWS-Laptop\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_dc8ffd472510508ef2f9ba378858719ad0d982a7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_c69a93acb2fbcd1bb6d0ccd895a742bcc22aaca9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_6331ddcaa7180743f7de7f7397c3cdf165700f7d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.0.0_0903e34eca57aa4029c2ef34fd68f5713c736156\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e19387dc3b060af32f5401f84fbe246635256955">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_2843193e08fa171a7516d9777aea218256069e16\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\PJWS-Laptop\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.1.4_1550ff31abecfe21b43595d34a713cd626acf907\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_2c46dd10720160702b1f24c082c2b679b9a0deb7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_dea6f661b5bd2db979e6c996887d87cee4504fff\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_05bff01920d738f14409a0d53287a1fbfdabd2fa\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="C:\Users\PJWS-Laptop\Documents\GitHub\Favours\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.0_796df01fe4a6220656dad3c3d2a3c6ac4c0121a5\classes.dex" />
+    </item>
+
+</items>
