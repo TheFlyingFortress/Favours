@@ -1,0 +1,16 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('http://localhost:3000/');
+  socket.on('post job', function (data) {
+    console.log(data);
+    if (data === "got the req") {
+      socket.emit('what to do', "get coffee");
+      socket.emit('from where', "starbucks");
+      socket.emit('starting', "13:30");
+      socket.emit('ending', "14:30");
+      socket.emit('meeting', "ICICS");
+    }
+    else
+      console.log("post error");
+  });
+</script>
