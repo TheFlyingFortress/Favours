@@ -1,1 +1,5 @@
 *.class
+!/.gradle
+!/.idea
+bin/
+app/bin/
