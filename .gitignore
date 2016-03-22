@@ -1,6 +1,7 @@
 *.class
 .idea/workspace.xml
 .idea/tasks.xml
+.idea
 .gradle/
 bin/
 app/bin/
